@@ -12,7 +12,7 @@ main{                 /*layout of images and animation*/
     align-content: center;
     padding: 10px;
     margin: 50px;
-    animation: 1s fadein 3s forwards; /* Animation for image filling*/
+    animation: 1s fadein 2s forwards; /* Animation for image filling*/
     opacity: 0;
  }
 @keyframes fadein {

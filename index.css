@@ -21,7 +21,7 @@ body {
 
 footer {
     background-color:#666578;
-    flex-basis:20px;
+    flex-basis:40px;
 }
  /*Header Styles*/
 header h2 {
@@ -29,6 +29,7 @@ header h2 {
 }
 
 h3 {
+  font-family: "Quicksand", sans-serif;
   color: #470024;
 }
 /*Main Styles*/
@@ -37,7 +38,7 @@ main {
   display: flex;
   min-height: 400px;
   justify-content: space-around;
-  align-content: center;
+  align-items: center;
 }
 
 article{
@@ -57,6 +58,7 @@ aside{
 }
 nav{
     list-style:none;
+    font-family: "Quicksand", sans-serif;
 }
 
 @media all and (max-width: 640px) {
@@ -69,11 +71,11 @@ nav{
 a {
   font-size:30px;
   padding: 10px;
-   text-decoration:none;
-   opacity: 0.75;
+  text-decoration:none;
+  opacity: 0.75;
 }
 
- a hover {
+ a :hover {
    opacity: 1;
  }
 img{
@@ -99,7 +101,7 @@ header {
  100% {
    opacity: 1;
  }
-
+}
  article,aside,section {
     margin: 4px;
     padding: 5px;
