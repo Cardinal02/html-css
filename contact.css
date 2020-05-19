@@ -1,26 +1,31 @@
 input {
+  
 	outline: none;
-	border: none;
+  border: none;
+  border: 1px solid #5B1865;
+    border-radius: 5px;
 }
 
 textarea {
   outline: none;
   border: none;
+  border: 1px solid #5B1865;
+  border-radius: 5px;
 }
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-content: center;
     padding: 30px;
-  }
+}
   form{
     background-color: #5B1865;
     padding: 20px;
-  }
+}
 
-  main{
+/*main {
     display: flex;
     min-height: 400px;
     justify-content: space-around;
     align-content: center;
-  }
+}*/

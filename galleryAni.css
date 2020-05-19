@@ -1,0 +1,15 @@
+/* Animation for images to scale up on hovering creating a zooming effect*/
+.zoom {
+  padding: 50px;
+  /*background-color: green;*/
+  transition: transform .2s; /* Animation */
+  /*width: 200px;
+  height: 200px;*/
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* 150% zoom  */
+}
+
+
