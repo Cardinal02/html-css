@@ -4,6 +4,6 @@ main{
     justify-content: space-around;
     align-items: center;
 }
-section{
+section {
     flex-basis: 20%;
-      }
+ }
