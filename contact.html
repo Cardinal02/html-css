@@ -26,19 +26,20 @@
             4600 Regent Blvd, 2nd Floor, Irving TX 75063<br>
         </address>
         <form>  <!--inputs are given appropriate type and a placeholder and inputs are validated -->
-            <label  for="fname">First Name:</label>
-            <input name="firstName"id="fname" type="text" placeholder="Vidya" required> <br>
+            <!--<label  for="fname">First Name:</label>-->
+            <input name="firstName"id="fname" type="text" placeholder="First Name" required> <br>
 
-            <label  for="lname">Last Name:</label>
-            <input name="lastName"id="lname" type="text" placeholder="Genius"required> <br>
+            <!--<label  for="lname">Last Name:</label>-->
+            <input name="lastName"id="lname" type="text" placeholder="Last Name"required> <br>
 
-            <label for="email">Your Email ID</label>
-            <input name= "email" id="email" type="email" placeholder="genius@brilliance.com"required><br>
+            <!--<label for="email">Your Email ID</label>-->
+            <input name= "email" id="email" type="email" placeholder="Email ID"required><br>
 
-            <label for="phoneNo">Your Phone Number</label>
-            <input name="phoneNo" id="phoneNo" type="tel" placeholder="3141592653"><br>
-            <div>
-                <p>Preferred mode of contact</p>
+            <!--<label for="phoneNo">Your Phone Number</label>-->
+            <input name="phoneNo" id="phoneNo" type="tel" placeholder="Phone No."><br>
+            
+                <p>Preferred mode of contact</p><br>
+                <div>
                 <label>Email
                     <input name="contactMode"value="email" type="radio">
                 </label>
@@ -49,7 +50,7 @@
                     <input name="contactMode"value="call" type="radio">
                 </label>
             </div>
-            <textarea name="message" rows="10" cols="50">Leave a message</textarea><br>
+            <textarea name="message" rows="10" cols="40">Leave a message</textarea><br>
             <button class="button">Submit</button>
         </form>
     </main>

@@ -1,9 +1,16 @@
 input {
-  
 	outline: none;
   border: none;
   border: 1px solid #5B1865;
-    border-radius: 5px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  /*margin: 5px;*/
+}
+div{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
 }
 
 textarea {
@@ -11,16 +18,26 @@ textarea {
   border: none;
   border: 1px solid #5B1865;
   border-radius: 5px;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+
 }
 main {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    padding: 30px;
-}
+    padding: 5px;
+    }
   form{
     background-color: #B5B2C2;
+    border-radius: 5px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    max-height: 400px;
+
 }
 address{
   text-align: center;

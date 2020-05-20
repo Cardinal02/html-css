@@ -16,7 +16,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: 10px;
+  height: 400;
+  justify-content:space-between ;
+ /* margin-top: 10px;*/
 }
 
 footer {
@@ -39,6 +41,7 @@ main {
   min-height: 400px;
   justify-content: space-around;
   align-items: center;
+  min-height: 100px;
 }
 
 article{
